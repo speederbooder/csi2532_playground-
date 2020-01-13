@@ -20,8 +20,8 @@ Tests
 Describe and show how to run the tests with code examples.
 
 Contributors
-Ahmed Amine Yacoubi ( 8341706 )
-Nathan Dauray ( 200007564 )
+Ahmed Amine Yacoubi (8341706)
+Nathan Dauray (200007564)
 
 License
 A short snippet describing the license (MIT, Apache, etc.)
