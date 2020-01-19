@@ -14,5 +14,5 @@ Contributors
 Ahmed Amine Yacoubi (8341706)
 Nathan Dauray (200007564)
 
-Livrable #1 est en ligne dans le répertoire **Livrable1_ER_RM
+Livrable #1 est en ligne dans le répertoire **Livrable1_ER_RM**
 ![Livrable1](https://github.com/OovuU/csi2532_playground-/blob/master/Livrable1_ER_RM/Livrable1_ER_RM.png)
