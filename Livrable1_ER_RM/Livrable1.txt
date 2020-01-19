@@ -31,6 +31,6 @@ DELETE
 FROM Athletes
 WHERE dob > '1997-01-01';
 
-SELECT *
-FROM Athletes
-WHERE gender = 'male';
+UPDATE Athletes
+SET gender = 'female'
+WHERE gender = 'F';
