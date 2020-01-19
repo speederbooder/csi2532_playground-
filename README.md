@@ -23,5 +23,4 @@ Contributors
 Ahmed Amine Yacoubi (8341706)
 Nathan Dauray (200007564)
 
-License
-A short snippet describing the license (MIT, Apache, etc.)
+Livrable #1 est en ligne dans la secton Livrable1_ER_RM
