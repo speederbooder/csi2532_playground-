@@ -19,3 +19,7 @@ Livrable #1 est en ligne dans le répertoire **Livrable1_ER_RM**
 
 Le fichier **Livrable1.txt** contient la commande de création de la table ainsi que quelques modifications de valeurs.
 Le fichier **Livrable1.csv** est le contenu de la table
+
+
+
+MODIFIER DANS LE LAB 3
