@@ -14,9 +14,10 @@ Le fichier **Livrable1.txt** contient la commande de création de la table ainsi
 Le fichier **Livrable1.csv** est le contenu de la table
 
 
-**Lundi 27 janvier 2020 - Pull request de Lab3**
+# Lundi 27 janvier 2020 - Pull request de Lab3
+- vérifié par le TA
 
-# Dimanche 2 février 2020 - Pull Request pour **Livrable 2**
+# Dimanche 2 février 2020 - Commit pour **Livrable 2**
 - ![Brouillon de ce à quoi le diagrame devrait ressembler (à verifier), /Livrable2/Livrable 2_brouillon_ER.pdf](https://github.com/OovuU/csi2532_playground-/blob/Nathan_Lab_3/Livrable2/Livrable%202_brouillon_ER.pdf)
 - Modifications successives de **schema.sql**, ajout de fichiers horodatés documentant chaque ajout.
 - Injection des données issues du document **seed.sql**
