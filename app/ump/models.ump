@@ -1,0 +1,18 @@
+//<?php
+generate Php "../models";
+
+class Db
+{
+    public static function connect()
+    {
+      return pg_connect("host=localhost port=5432 dbname=Livrable2");
+    }
+
+    public static function sql($sql, $dbconn = null)
+    {
+      $dbconn = $dbconn ?: self::connect();
+      $result = pg_query($dbconn, $sql);
+      return pg_fetch_all($result);
+    }
+
+}
