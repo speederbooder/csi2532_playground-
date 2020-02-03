@@ -2,6 +2,7 @@
 
 **Contributors
 Ahmed Amine Yacoubi (8341706), Nathan Dauray (200007564)**
+
 *aide à la mise en page Markdown: https://stackedit.io*
 
 # Dimanche 19 janvier 2020
