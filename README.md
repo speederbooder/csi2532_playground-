@@ -1,8 +1,8 @@
 # csi2532_playground-
 
 **Contributors
-Ahmed Amine Yacoubi (8341706)
-Nathan Dauray (200007564)**
+Ahmed Amine Yacoubi (8341706), Nathan Dauray (200007564)**
+*aide à la mise en page Markdown: https://stackedit.io*
 
 # Dimanche 19 janvier 2020
 ## Livrable 1
@@ -36,4 +36,4 @@ Le fichier **Livrable1.csv** est le contenu de la table
 >Array ( [0] => Array ( [id] => 1 [name] => Georges [gender] => M [dob] => 1975-12-01 ) [1] => Array ( [id] => 2 [name] => Sam [gender] => M [dob] => 1998-06-11 ) [2] => Array ( [id] => 3 [name] => Dean [gender] => M [dob] => 1996-07-24 ) [3] => Array ( [id] => 4 [name] => Jessica [gender] => F [dob] => 1999-09-09 ) )
 
 
-*aide à la mise en page Markdown: https://stackedit.io
+
