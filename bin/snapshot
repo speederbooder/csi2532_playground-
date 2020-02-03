@@ -1,0 +1,8 @@
+#!/bin/bash
+
+NAME=${1-samplephp}
+SNAPSHOT=${2-${NAME}100}
+
+dio power off $NAME
+dio block-until $NAME off
+dio snapshot $NAME $SNAPSHOT
