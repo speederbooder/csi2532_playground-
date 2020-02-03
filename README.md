@@ -26,10 +26,12 @@ Le fichier **Livrable1.csv** est le contenu de la table
 - Insertion des fichiers du simple site PHP
 - modification des fichiers suivants avec modification du nom de la base de donnée: ***Livrable2***
 > app/models/Db.php
+
 > app/views/homepage.html.php
 
 ## Résultat 
 >Hello Nathan
+
 >Array ( [0] => Array ( [id] => 1 [name] => Georges [gender] => M [dob] => 1975-12-01 ) [1] => Array ( [id] => 2 [name] => Sam [gender] => M [dob] => 1998-06-11 ) [2] => Array ( [id] => 3 [name] => Dean [gender] => M [dob] => 1996-07-24 ) [3] => Array ( [id] => 4 [name] => Jessica [gender] => F [dob] => 1999-09-09 ) )
 
 
