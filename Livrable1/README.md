@@ -13,67 +13,25 @@ Nathan Dauray (200007564)
 
 
 
-## **Livrable #1**  
+## **Livrable #2**  
 
 ### _Models:_
-Livrable #1 est en ligne dans le répertoire **Livrable1_ER_RM**  
+Livrable #2 est en ligne dans le répertoire **Livrable2_Migration_SQL**  
 
 Pour obtenir les figures suivantes nous avons utilisé les notions vues en class ainsi que le logiciel Keynote pour produire les modèles.  
 
-![Livrable1](https://github.com/professor-forward/projet-yacoubi-dauray/blob/master/Livrable1_ER_RM/Livrable1_ER_RM.png)  
+![Livrable2](https://github.com/OovuU/csi2532_playground-/blob/master/Livrable1/README.md)
+- Modifications successives de **schema.sql**, ajout de fichiers horodatés documentant chaque ajout.
+- Injection des données issues du document **seed.sql**
 
+## Site en PHP
+- Insertion des fichiers du simple site PHP
+- modification des fichiers suivants avec modification du nom de la base de donnée: ***Livrable2***
+> app/models/Db.php
 
+> app/views/homepage.html.php
 
-### _Code de creation de Table:_
+## Résultat 
+>Hello Nathan
 
-Pour la creation de nos table nous avons utiliser un interpreteur en ligne et on execute le code suivant  
-
-	CREATE TABLE Athletes (  
-	id int,  
-	name varchar(50),  
-	gender varchar(6),  
-	dob date,  
-	PRIMARY KEY (id)  
-	);  
-
-
-### _Exemple de requêtes:_
-	INSERT INTO Athletes (id, name, gender, dob)  
-	VALUES  
-	(1, 'Georges', 'M', '1975-12-01'),  
-	(2, 'Sam', 'M', '1998-06-11'),  
-	(3, 'Dean', 'M', '1996-07-24'),  
-	(4, 'Jessica', 'F', '1999-09-09');  
-![Livrable1](https://github.com/professor-forward/projet-yacoubi-dauray/blob/master/Livrable1_ER_RM/test%20table.png)
-	
-	SELECT *  
-	FROM Athletes  
-	WHERE gender = 'M';  
-![Livrable1](https://github.com/professor-forward/projet-yacoubi-dauray/blob/master/Livrable1_ER_RM/Select%20Where.png)	 
-	 
-	UPDATE Athletes  
-	SET gender = 'male'  
-	WHERE gender = 'M';  
-	 
-![Livrable1](https://github.com/professor-forward/projet-yacoubi-dauray/blob/master/Livrable1_ER_RM/update.png)	 
-
-	SELECT *  
-	FROM Athletes  
-	WHERE gender = 'male';  
-	  
-	DELETE  
-	FROM Athletes  
-	WHERE dob > '1997-01-01';  
-
-![Livrable1](https://github.com/professor-forward/projet-yacoubi-dauray/blob/master/Livrable1_ER_RM/Delete.png)			  
-				  
-	UPDATE Athletes  
-	SET gender = 'female'  
-	WHERE gender = 'F';
-![Livrable1](https://github.com/professor-forward/projet-yacoubi-dauray/blob/master/Livrable1_ER_RM/update%20F.png)	  
-
-## **Note:**
-
-Pour accéder aux liens des images utiliser clicker dessus.  
-Le fichier **Livrable1.txt** contient la commande de création de la table ainsi que quelques modifications de valeurs.  
-Le fichier **Livrable1.csv** est le contenu de la table.  
+>Array ( [0] => Array ( [id] => 1 [name] => Georges [gender] => M [dob] => 1975-12-01 ) [1] => Array ( [id] => 2 [name] => Sam [gender] => M [dob] => 1998-06-11 ) [2] => Array ( [id] => 3 [name] => Dean [gender] => M [dob] => 1996-07-24 ) [3] => Array ( [id] => 4 [name] => Jessica [gender] => F [dob] => 1999-09-09 ) )
