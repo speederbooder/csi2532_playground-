@@ -20,7 +20,7 @@ Livrable #2 est en ligne dans le répertoire **Livrable2_Migration_SQL**
 
 Pour obtenir les figures suivantes nous avons utilisé les notions vues en class ainsi que le logiciel Keynote pour produire les modèles.  
 
-![Livrable2](https://github.com/OovuU/csi2532_playground-/blob/master/Livrable1/README.md)
+![Livrable2](https://github.com/OovuU/csi2532_playground-/blob/master/Livrable2/Livrable%202_brouillon_ER.pdf)
 - Modifications successives de **schema.sql**, ajout de fichiers horodatés documentant chaque ajout.
 - Injection des données issues du document **seed.sql**
 
